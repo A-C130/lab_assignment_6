@@ -1,8 +1,12 @@
 #include <stdio.h>
 
-int search(int numbers[], int low, int high, int value) 
-{
-	return -1;
+int search(int numbers[], int low, int high, int value) {
+ if ( low > high)return -1;
+int cent = (low +high) / 2;
+
+
+
+ return cent;
 }
 
 void printArray(int numbers[], int sz)
